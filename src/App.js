@@ -56,22 +56,42 @@ function App() {
           <hr />
           <img src={pictureUrl} width="300px" height="300px" />
           <p
-            style={{ textalign: "left", marginleft: "20%", marginright: "20%" }}
+            style={{
+              textalign: "left",
+              marginleft: "20%",
+              marginright: "20%",
+              wordBreak: "break-all",
+            }}
           >
             <b>id token: </b> {idToken}
           </p>
           <p
-            style={{ textalign: "left", marginleft: "20%", marginright: "20%" }}
+            style={{
+              textalign: "left",
+              marginleft: "20%",
+              marginright: "20%",
+              wordBreak: "break-all",
+            }}
           >
             <b>display name: </b> {displayName}
           </p>
           <p
-            style={{ textalign: "left", marginleft: "20%", marginright: "20%" }}
+            style={{
+              textalign: "left",
+              marginleft: "20%",
+              marginright: "20%",
+              wordBreak: "break-all",
+            }}
           >
             <b>status message: </b> {statusMessage}
           </p>
           <p
-            style={{ textalign: "left", marginleft: "20%", marginright: "20%" }}
+            style={{
+              textalign: "left",
+              marginleft: "20%",
+              marginright: "20%",
+              wordBreak: "break-all",
+            }}
           >
             <b>user id: </b> {userId}
           </p>
